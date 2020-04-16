@@ -2,7 +2,42 @@
 .nav{
 	color: black;
 text-align: center;
-background-color: red ;
-padding: 20px 30px;
-border-radius: 10px;
+background-color: #ff6b54 ;
+left: 0px;
+right:0px;
+top: 0px;
+padding: 15px 15px;
+border-radius: 3px;
+text-decoration: none;
+position: absolute;
+}
+
+#navbutton{
+	color: green;
+text-align: center;
+background-color: #e33d24 ;
+padding: 5px 5px;
+text-decoration: underline;
+text-transform: capitalize;
+}
+
+#navbutton:hover{
+	color: black;
+text-align: center;
+background-color: #ab210c ;
+padding: 15px 15px;
+border-radius: 5px;
+text-decoration: underline;
+text-transform: uppercase;
+
+}
+
+
+#maintitle{
+	background-image: url("https://cache.marriott.com/marriottassets/destinations/hero/calgary-destination.jpg?interpolation=progressive-bilinear");
+text-align: center;
+padding-top: 200px;
+padding-bottom: 200px;
+
+
 }
